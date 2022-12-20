@@ -4,9 +4,11 @@ package Pieces;
  * Version - 1.0
  */
 public class King extends Pieces{
-    King()
+    int x,y,color;
+    boolean killed;
+    King(int x,int y,int color)
     {
-
+        super(x,y,color);
     }
     public boolean isValidPath()
     {
