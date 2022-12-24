@@ -71,18 +71,18 @@ public class Board {
                 }
                 else if(i == 2)
                 {
-                    board[i][j] = "W" + PieceSet.get(8+j-1);
+                    board[i][j] = "W" + PieceSet.get(8+j-1).substring(0,1);
                 }
                 else if(i == 1){
-                    board[i][j] = "W" + PieceSet.get(j-1);
+                    board[i][j] = "W" + PieceSet.get(j-1).substring(0,1);
                 }
                 else if(i == 7)
                 {
-                    board[i][j] = "B" + PieceSet.get(8+j-1);
+                    board[i][j] = "B" + PieceSet.get(8+j-1).substring(0,1);
                 }
                 else if(i == 8)
                 {
-                    board[i][j] = "B" + PieceSet.get(j-1);
+                    board[i][j] = "B" + PieceSet.get(j-1).substring(0,1);
                 }
                 else
                 {

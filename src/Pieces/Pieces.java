@@ -14,6 +14,6 @@ public abstract class Pieces {
         this.color = color;
     }
     public abstract boolean isValidPath();
-    public abstract boolean showPath();
+//    public abstract int[][] showPath(int x, int y);
     public abstract int move();
 }

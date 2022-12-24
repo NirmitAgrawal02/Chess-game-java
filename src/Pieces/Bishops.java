@@ -1,4 +1,5 @@
 package Pieces;
+import Game.*;
 /**
  * Author - Nirmit Agrawal
  * Version - 1.0
@@ -31,10 +32,13 @@ public class Bishops extends Pieces{
         return true;
     }
 
-    public boolean showPath()
-    {
-        return true;
-    }
+//    public int [][] showPath(int x, int y)
+//    {
+//        int [][] moves = new int[4][20];
+//        int i = x;
+//        int j = 0;
+//        return ;
+//    }
     public int move()
     {
         return 1;
